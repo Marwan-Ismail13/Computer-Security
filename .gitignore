@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# NEVER commit private keys. Public keys (*_public.pem) are fine to share.
+keys/*_private.pem
+*.wav
+*.enc
